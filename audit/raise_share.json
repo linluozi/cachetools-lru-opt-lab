@@ -1,0 +1,18 @@
+{
+  "source": "/home/ubuntu/GitHub/work/algo/cachetools-lru-opt-lab/baseline_src",
+  "scale": 20000,
+  "elapsed_s": 0.05244331993162632,
+  "plain_elapsed_s": 0.014426571317017078,
+  "raises_in_cachetools": 20000,
+  "handled_in_cachetools": 20000,
+  "raises_per_set": 1.0,
+  "cost": {
+    "raise_catch_ns": 214.44183308631182,
+    "membership_ns": 114.1451857984066,
+    "reps": 200000,
+    "sentinel_is_none": false
+  },
+  "estimated_saved_s": 0.004288836661726236,
+  "estimated_share_of_write_loop": 0.29728731570940037,
+  "note": "estimated_share uses the unmonitored pass as denominator; upper bound (one raise per event)."
+}
