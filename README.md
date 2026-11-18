@@ -13,6 +13,14 @@ Upstream: https://github.com/tkem/cachetools
 - Scope: only the write path of `LRUCache`. Public API, return values and eviction
   order are unchanged; the differential test below re-checks them byte-for-byte.
 
+> **Upstream status (2026-11-18): already fixed upstream — do not resubmit.**
+> PR [#478](https://github.com/tkem/cachetools/pull/478) was closed by the
+> maintainer with: “Already in `c128aa5e538ba73a1ffd18f1f8608473e702a3b0`. Do your
+> homework before pushing PRs.” The same membership-test change therefore landed
+> upstream earlier. This repository is retained as a **retrospective benchmark and
+> differential-test record**, not as a pending contribution. `tkem/cachetools` is
+> permanently off-limits for future PR proposals.
+
 ## Measured result
 
 `benchmark/bench.py`, CPython 3.12.3, AMD EPYC 7K62, 3 warmups + 5 timed reps,
